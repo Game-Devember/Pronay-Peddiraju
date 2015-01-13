@@ -1,0 +1,48 @@
+newmtl blinn3SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl blinn4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd -s 0.1 0.05 Dark-Grey-Stone-Wall-stone-texture.jpg
+bump -s 0.1 0.05 Dark-Grey-Stone-Wall-stone-texture.jpg -bm 1
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl initialShadingGroup
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd -s 0.0333333 0.0666667 flint_like_rock_4787.JPG
+bump -s 0.0333333 0.0666667 flint_like_rock_4787.JPG -bm 1
+Ni 1.00
+newmtl lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Limestone_rocks.jpg
+bump Limestone_rocks.jpg -bm 0.2
+Ni 1.00
+newmtl lambert5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd -s 0.1 0.333333 wall.jpg
+bump -s 0.1 0.333333 wall.jpg -bm 1
+Ni 1.00
+newmtl lambert7SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd -s 0.1 0.333333 wall.jpg
+bump -s 0.1 0.333333 wall.jpg -bm 1
+Ni 1.00
